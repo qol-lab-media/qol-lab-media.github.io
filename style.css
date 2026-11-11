@@ -291,6 +291,232 @@ footer {
   font-weight: normal;
 }
 
+/* Rich Media Components (プロ仕様のアフィリエイトデザイン) */
+
+/* Breadcrumb */
+.breadcrumb {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--primary);
+}
+
+/* Table of Contents (目次) */
+.toc-box {
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.toc-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #1e293b;
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toc-list {
+  padding-left: 1.2rem;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.toc-list li {
+  margin-bottom: 0.4rem;
+}
+
+.toc-list a {
+  color: #334155;
+  text-decoration: none;
+}
+
+.toc-list a:hover {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Modern Comparison Table (比較一覧表) */
+.table-wrapper {
+  overflow-x: auto;
+  margin: 1.75rem 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.spec-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.spec-table th, .spec-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.spec-table th {
+  background: #f1f5f9;
+  font-weight: 700;
+  color: #1e293b;
+  white-space: nowrap;
+}
+
+.spec-table tr:hover {
+  background: #f8fafc;
+}
+
+/* Rich Product Card (ランキング型プロ仕様カード) */
+.product-card-rich {
+  background: #ffffff;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.rank-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  background: #2563eb;
+  color: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 800;
+  padding: 0.35rem 0.85rem;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.rank-badge.gold {
+  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+}
+
+.rank-badge.silver {
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
+}
+
+.rank-badge.bronze {
+  background: linear-gradient(135deg, #b45309 0%, #78350f 100%);
+}
+
+.product-title-rich {
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+}
+
+.rating-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.stars {
+  color: #f59e0b;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.rating-score {
+  font-weight: 700;
+  color: #1e293b;
+}
+
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+@media (max-width: 640px) {
+  .pros-cons-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pros-box {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+  padding: 0.85rem;
+  font-size: 0.85rem;
+}
+
+.pros-box strong {
+  color: #166534;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.cons-box {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 8px;
+  padding: 0.85rem;
+  font-size: 0.85rem;
+}
+
+.cons-box strong {
+  color: #991b1b;
+  display: block;
+  margin-bottom: 0.35rem;
+}
+
+.btn-rakuten {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, #bf0000 0%, #990000 100%);
+  color: #ffffff !important;
+  font-weight: 800;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  box-shadow: 0 4px 6px rgba(191, 0, 0, 0.2);
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.btn-rakuten:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 10px rgba(191, 0, 0, 0.3);
+}
+
+.callout-box {
+  background: #eff6ff;
+  border-left: 4px solid var(--primary);
+  border-radius: 4px;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.callout-box strong {
+  color: #1e40af;
+}
+
 /* Footer policies */
 .footer-policy {
   max-width: 900px;
