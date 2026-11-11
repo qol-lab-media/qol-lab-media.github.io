@@ -170,6 +170,8 @@ nav a:hover {
 
 .card-tag.gadget { color: var(--accent-gadget); }
 .card-tag.baseball { color: var(--accent-baseball); }
+.card-tag.life { color: #059669; }
+.card-tag.money { color: #7c3aed; }
 
 .card-title {
   font-size: 1.1rem;
@@ -228,6 +230,12 @@ nav a:hover {
   margin-bottom: 0.4rem;
 }
 
+.article-content a:not(.affiliate-btn) {
+  color: var(--primary);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .product-box {
   background: #f8fafc;
   border: 1px solid #cbd5e1;
@@ -268,17 +276,19 @@ footer {
 
 /* Affiliate disclosure bar (景表法ステマ規制対応) */
 .pr-notice {
-  background: #fff7ed;
-  border-bottom: 1px solid #fed7aa;
-  color: #9a3412;
-  font-size: 0.78rem;
-  line-height: 1.55;
-  text-align: center;
-  padding: 0.55rem 1rem;
+  background: transparent;
+  border: none;
+  color: #94a3b8;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  text-align: right;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0.4rem 1rem 0;
 }
 
 .pr-notice strong {
-  font-weight: 700;
+  font-weight: normal;
 }
 
 /* Footer policies */
