@@ -3,28 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QOL Lab｜ガジェットとプロ野球観戦で毎日を快適にするブログ</title>
+  <title>QOL Lab｜暮らしとモノのリアルレビューメディア</title>
   <meta name="description" content="20代共働き夫婦が本気でおすすめする最新便利ガジェットと、プロ野球現地観戦が100倍快適になる便利グッズの徹底レビュー。">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://qol-lab-media.github.io/">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="QOL Lab">
-  <meta property="og:title" content="QOL Lab｜ガジェットとプロ野球観戦で毎日を快適にするブログ">
-  <meta property="og:description" content="20代共働き夫婦が本気でおすすめする最新便利ガジェットと、プロ野球現地観戦が100倍快適になる便利グッズの徹底レビュー。">
-  <meta property="og:url" content="https://qol-lab-media.github.io/">
-  <meta property="og:locale" content="ja_JP">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="QOL Lab｜ガジェットとプロ野球観戦で毎日を快適にするブログ">
-  <meta name="twitter:description" content="20代共働き夫婦が本気でおすすめする最新便利ガジェットと、プロ野球現地観戦が100倍快適になる便利グッズの徹底レビュー。">
-  <meta name="theme-color" content="#2563eb">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <!-- Header -->
+  <header class="site-header">
     <div class="header-container">
-      <a href="index.html" class="logo">⚡️⚾️ <span>QOL Lab</span></a>
-      <nav>
+      <div class="brand-wrapper">
+        <a href="index.html" class="site-logo">QOL Lab</a>
+        <span class="site-tagline">暮らしとモノのリアルレビュー</span>
+      </div>
+      <nav class="site-nav">
         <a href="#life">暮らし</a>
         <a href="#gadget">ガジェット</a>
         <a href="#baseball">野球観戦</a>
@@ -33,133 +30,143 @@
     </div>
   </header>
 
-  <div class="pr-notice">
-    ※当サイトは<strong>アフィリエイト広告（楽天アフィリエイト等）</strong>を利用しています。記事内の商品リンクから購入された場合、当サイトに紹介料が支払われることがあります。
+  <!-- PR Notice -->
+  <div class="pr-micro-notice">
+    ※当サイトはアフィリエイト広告（楽天アフィリエイト等）を利用して運営しています
   </div>
 
-  <div class="container">
-    <div class="hero">
+  <main class="main-wrapper" style="max-width: 1040px; padding-top: 16px;">
+    <!-- Top Hero -->
+    <section class="top-hero">
       <h1>暮らしをスマートに、趣味を全力で。</h1>
-      <p>20代共働き夫婦が「本当に買って生活が変わったモノ」だけを厳選レビュー！</p>
+      <p>20代の共働き夫婦が、実際に使って「生活が変わったモノ」だけを自腹で厳選レビュー。</p>
+    </section>
+
+    <!-- Category Nav -->
+    <div class="category-nav">
+      <span class="cat-pill active">すべて</span>
+      <span class="cat-pill">暮らし・日用品</span>
+      <span class="cat-pill">ガジェット</span>
+      <span class="cat-pill">プロ野球観戦</span>
+      <span class="cat-pill">ふるさと納税</span>
     </div>
 
-    <div class="categories">
-      <span class="category-badge active">すべて</span>
-      <span class="category-badge">🧣 暮らし</span>
-      <span class="category-badge">⚡️ ガジェット</span>
-      <span class="category-badge">⚾️ 野球観戦</span>
-      <span class="category-badge">🎁 お得</span>
-    </div>
-
+    <!-- Articles Grid -->
     <div class="articles-grid">
-      <!-- Flagship Article: Best 12 Items -->
-      <a href="qol-best-items-12.html" class="article-card featured-flagship" style="border: 2px solid #2563eb;">
-        <div class="card-img-placeholder" style="background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);">🏆</div>
+      
+      <!-- Flagship Feature Article -->
+      <a href="qol-best-items-12.html" class="article-card featured-flagship">
+        <div class="card-thumb">🏆</div>
         <div class="card-body">
-          <span class="card-tag life" style="background:#2563eb; color:#fff; padding:2px 8px; border-radius:4px;">殿堂入り・徹底比較</span>
+          <span class="card-tag life" style="background:#0f172a; color:#fff;">殿堂入り・徹底比較</span>
           <h2 class="card-title">【2026年最新】QOL爆上げ！生活が激変した便利神アイテムおすすめ12選</h2>
           <p class="card-desc">充電器、ゲルクッション、着る毛布、象印加湿器、縦型マウス、防寒ベストまで！買って後悔しない名品12選を一挙徹底比較！</p>
-          <span class="card-date">2026.11.11</span>
+          <span class="card-date">2026.11.11 · QOL Lab 編集部</span>
         </div>
       </a>
-      <!-- Article 3: Life / Winter -->
+
+      <!-- Article: Winter Blanket -->
       <a href="winter-blanket-heated-vest.html" class="article-card" id="life">
-        <div class="card-img-placeholder">🧣</div>
+        <div class="card-thumb">🧣</div>
         <div class="card-body">
-          <span class="card-tag life">Life</span>
+          <span class="card-tag life">暮らし</span>
           <h2 class="card-title">【2026年冬】電気代を節約して極暖！今一番売れてる「着る毛布＆電熱ベスト」おすすめ3選</h2>
-          <p class="card-desc">着るだけで暖房1℃ダウン。楽天1位のGROONY着る毛布と、前後17箇所が発熱する電熱ベストを比較しました。</p>
+          <p class="card-desc">着るだけで暖房1℃ダウン。楽天1位のGROONY着る毛布と、前後17箇所が発熱する電熱ベストを本音比較。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 4: Life / Humidifier -->
+      <!-- Article: Humidifier -->
       <a href="humidifier-steam-2026.html" class="article-card">
-        <div class="card-img-placeholder">💧</div>
+        <div class="card-thumb">💧</div>
         <div class="card-body">
-          <span class="card-tag life">Life</span>
+          <span class="card-tag life">暮らし</span>
           <h2 class="card-title">【加湿器おすすめ2026】お手入れ超簡単！喉・肌の乾燥を撃退する最強スチーム式・ハイブリッド加湿器3選</h2>
-          <p class="card-desc">沸騰させるから清潔＆手入れはポット感覚。象印・シャープ・ダイニチの電気代まで比較します。</p>
+          <p class="card-desc">沸騰させるから清潔＆手入れはポット感覚。象印・シャープの電気代とお手入れの手間まで比較。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 5: Money / Furusato Nozei -->
+      <!-- Article: Furusato Nozei -->
       <a href="furusato-nozei-2026.html" class="article-card" id="money">
-        <div class="card-img-placeholder">🎁</div>
+        <div class="card-thumb">🎁</div>
         <div class="card-body">
-          <span class="card-tag money">Money</span>
+          <span class="card-tag money">ふるさと納税</span>
           <h2 class="card-title">【年末駆け込み2026】還元率＆満足度MAX！外れなしの楽天ふるさと納税おすすめ返礼品TOP3</h2>
-          <p class="card-desc">年間総合1位のホタテ、白糠町のいくら、カット済みずわい蟹。11月中に押さえたい定番返礼品。</p>
+          <p class="card-desc">年間総合1位のホタテ、白糠町のいくら、カット済みずわい蟹。11月中に押さえたい鉄板返礼品。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 6: Gadget / Desk ergonomics -->
-      <a href="desk-ergonomic-mouse-keyboard.html" class="article-card">
-        <div class="card-img-placeholder">🖱️</div>
+      <!-- Article: Desk Ergonomics -->
+      <a href="desk-ergonomic-mouse-keyboard.html" class="article-card" id="gadget">
+        <div class="card-thumb">🖱️</div>
         <div class="card-body">
-          <span class="card-tag gadget">Gadget</span>
+          <span class="card-tag gadget">ガジェット</span>
           <h2 class="card-title">【PC作業が劇的改善】手首の疲労ゼロへ！ロジクール＆最新エルゴノミクスマウス・キーボード3選</h2>
-          <p class="card-desc">MX Master 4、MX Keys S、縦型Lift。手首と前腕の負担を減らす選び方と設定のコツ。</p>
+          <p class="card-desc">縦型Liftや静音キーボード。手首と肩の負担を減らす選び方とリアルな使用感をレビュー。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 7: Baseball / Winter cold goods -->
-      <a href="baseball-winter-cold-goods.html" class="article-card">
-        <div class="card-img-placeholder">⚾️</div>
+      <!-- Article: Baseball Winter -->
+      <a href="baseball-winter-cold-goods.html" class="article-card" id="baseball">
+        <div class="card-thumb">⚾️</div>
         <div class="card-body">
-          <span class="card-tag baseball">Baseball</span>
+          <span class="card-tag baseball">野球観戦</span>
           <h2 class="card-title">【冬の野球教室・秋季キャンプ観戦】凍える寒さを完全ブロックする神防寒グッズ3選</h2>
-          <p class="card-desc">USB電熱ブランケット、貼るカイロ、断熱座布団。屋外球場の「下から来る冷え」を潰す3点。</p>
+          <p class="card-desc">USB電熱ブランケット、貼るカイロ、断熱座布団。屋外球場の「下から来る冷え」を潰す3選。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 1: Gadget -->
-      <a href="gadget-iphone-accessories.html" class="article-card" id="gadget">
-        <div class="card-img-placeholder">📱</div>
+      <!-- Article: iPhone Accessories -->
+      <a href="gadget-iphone-accessories.html" class="article-card">
+        <div class="card-thumb">📱</div>
         <div class="card-body">
-          <span class="card-tag gadget">Gadget</span>
+          <span class="card-tag gadget">ガジェット</span>
           <h2 class="card-title">【2026年最新】iPhoneユーザーがガチで生活変わった神アクセサリ3選</h2>
-          <p class="card-desc">カバンの充電コード散乱とバッテリー切れを完全解消！CIO、MOFT、Ankerの極上アイテム。</p>
+          <p class="card-desc">充電コードの散乱とバッテリー切れを完全解消！CIO小型充電器、MOFT、Ankerの極上アイテム。</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
 
-      <!-- Article 2: Baseball -->
-      <a href="baseball-dome-goods.html" class="article-card" id="baseball">
-        <div class="card-img-placeholder">⚾️</div>
+      <!-- Article: Dome Goods -->
+      <a href="baseball-dome-goods.html" class="article-card">
+        <div class="card-thumb">🏟️</div>
         <div class="card-body">
-          <span class="card-tag baseball">Baseball</span>
+          <span class="card-tag baseball">野球観戦</span>
           <h2 class="card-title">【ドーム観戦が100倍快適に！】現地観戦ファンが本気で推す神グッズ3選</h2>
-          <p class="card-desc">硬い座席の腰痛対策から、上段パノラマ席でも推しの表情が見える超軽量双眼鏡まで徹底紹介！</p>
+          <p class="card-desc">硬いプラスチック座席の腰痛対策から、上段パノラマ席でも推しの表情が見える超軽量双眼鏡まで徹底紹介！</p>
           <span class="card-date">2026.11.11</span>
         </div>
       </a>
-    </div>
-  </div>
 
-  <footer>
-    <div class="footer-policy">
-      <h3>プライバシーポリシー</h3>
-      <ul>
-        <li>当サイトは、記事内の商品リンクにアフィリエイトプログラム（楽天アフィリエイト等）を利用しています。リンク先の事業者は、広告効果の測定のためにCookieを使用する場合があります。</li>
-        <li>当サイトは、アクセス状況の把握のためにCookieを利用した解析ツールを利用する場合があります。収集される情報に個人を特定するものは含まれず、Cookieはブラウザの設定で無効にできます。</li>
-        <li>お問い合わせ等で取得した個人情報は、返信の目的にのみ使用し、ご本人の同意なく第三者へ提供することはありません。</li>
-        <li>本ポリシーは必要に応じて改定し、変更後の内容は当ページに掲載します。</li>
-      </ul>
-      <h3>免責事項</h3>
-      <ul>
-        <li>掲載する情報は正確を期していますが、その内容を保証するものではありません。</li>
-        <li>商品の価格・仕様・在庫・キャンペーン内容は変更または終了する場合があります。最新の情報は各販売店・メーカーの公式サイトでご確認ください。</li>
-        <li>当サイトは各メーカー・販売店の公式サイトではありません。</li>
-        <li>記事の内容は執筆時点の個人的な感想であり、商品の効果・効能を保証するものではありません。当サイトの情報を利用して行った行為によって生じた損害について、当サイトは責任を負いません。</li>
-      </ul>
-      <p>制定日：2026年11月11日</p>
     </div>
-    <p>&copy; 2026 QOL Lab. All rights reserved.</p>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">QOL Lab</div>
+      <p>暮らしとモノのリアルレビューメディア</p>
+      
+      <div class="footer-nav">
+        <a href="index.html">ホーム</a>
+        <a href="#about">当サイトについて</a>
+        <a href="#privacy">プライバシーポリシー</a>
+        <a href="#disclaimer">免責事項</a>
+      </div>
+
+      <div class="footer-disclaimer">
+        【免責事項・広告について】<br>
+        当サイトは、アフィリエイトプログラム（楽天アフィリエイト等）を利用して商品を紹介しています。商品に関するお問い合わせは各販売店様へ直接お願いいたします。正確な価格や在庫状況は各ECサイトの最新ページをご確認ください。
+      </div>
+
+      <div class="footer-copy">
+        &copy; 2026 QOL Lab. All Rights Reserved.
+      </div>
+    </div>
   </footer>
 
 </body>
