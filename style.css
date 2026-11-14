@@ -1112,7 +1112,8 @@ img {
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  overflow: hidden;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .spec-table-title {
@@ -1128,9 +1129,7 @@ img {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.82rem;
-  display: block;
-  overflow-x: auto;
-  white-space: nowrap;
+  background-color: var(--color-surface);
 }
 
 .spec-table thead th {
@@ -1158,7 +1157,11 @@ img {
   border-bottom: 1px solid #cbd5e1;
 }
 
-.spec-table .table-item-name { white-space: normal; min-width: 200px; }
+.spec-table .table-item-name { min-width: 170px; }
+
+@media (max-width: 639px) {
+  .spec-table { min-width: 580px; }
+}
 .spec-table .table-rating {
   font-family: var(--font-en);
   font-weight: 700;
